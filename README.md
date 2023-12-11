@@ -40,14 +40,14 @@ I was struggling for a while with def get_valid_guess because I couldnt figure o
 ## Example Runs
 Explain how you documented running the project, and what we need to look for in your repository (text output from the project, small videos, links to videos on youtube of you running it, etc)
 
-For the example run I played a runthrough of the game myself example_run.py. 
+For the example run I played a runthrough of the game myself and documented it under "example_run.py" which is a saved file in the repository. 
 
 ## Testing
 How did you test your code? What did you do to make sure your code was correct? If you wrote unit tests, you can link to them here. If you did run tests, make sure you document them as text files, and include them in your submission. 
 
 > _Make it easy for us to know you *ran the project* and *tested the project* before you submitted this report!_
 
-I tested the code through doctests to make sure it was passing the tests. Throughout the processs I would run the code after every couple of lines to make sure it was running smoothly, and if there were any errors I would use that as feedback on what I needed to fix.
+I tested the code through doctests to make sure it was passing the tests. Throughout the processs I would run the code after every couple of lines to make sure it was running smoothly, and if there were any errors I would use that as feedback on what I needed to fix. The test is under "testing.py" in the repository.
 
 ## Missing Features / What's Next
 Focus on what you didn't get to do, and what you would do if you had more time, or things you would implement in the future. 
