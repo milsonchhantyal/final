@@ -40,6 +40,8 @@ I was struggling for a while with def get_valid_guess because I couldnt figure o
 ## Example Runs
 Explain how you documented running the project, and what we need to look for in your repository (text output from the project, small videos, links to videos on youtube of you running it, etc)
 
+For the example run I played a runthrough of the game myself example_run.py.
+
 ## Testing
 How did you test your code? What did you do to make sure your code was correct? If you wrote unit tests, you can link to them here. If you did run tests, make sure you document them as text files, and include them in your submission. 
 
