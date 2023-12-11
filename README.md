@@ -15,7 +15,7 @@ I made a hangman game for my final project that inculdes 3 different topics the 
 ## Key Features
 Highlight some key features of this project that you want to show off/talk about/focus on. 
 
-I would like to highlight the display of "_" on the console and how it gets replaced with the letter if the letter is correct. This part is helpful for the user to visialize where the letters they guessed correctly are placed and how to procced with the game using that information.
+One of the key highlights of this project is the display of "_" on the console. The function update_display allows the user to see where the correct letter they guessed is placed on the word. This is useful beacuse it gives a hint of what the word is and it keeps track of the correct letters the user has guessed. Another key feature is the ASCII art of the hangman. The visual representation of the hangman is an important factor to the game so adding it to this project was a priority. If the user guesses a wrong letter a part of the hangman art is displayed. Since there are 6 attempts at guessing correctly the hangman art has 6 stages where it gradually appears as the attempts decrease.
 
 ## Guide
 How do we run your project? What should we do to see it in action? - Note this isn't installing, this is actual use of the project.. If it is a website, you can point towards the gui, use screenshots, etc talking about features.
@@ -30,7 +30,7 @@ To run the project you just have to make sure Python is installed.
 ## Code Review
 Go over key aspects of code in this section. Both link to the file, include snippets in this report (make sure to use the [coding blocks](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)).  Grading wise, we are looking for that you understand your code and what you did. 
 
-The main code is in the hangman.py file. One key aspect of the code is its modular structure, with functions like choose_topic_menu() and initialize_game(). This separation of game logic into functions improves readability and maintainability,
+The main part of the code is in hangman.py. It imports 2 files, hangman_drawings.py and topics_file.py. Within hangman.py there are multiple functions that work together to create the game. For example, choose_topic_menu is a function that presents users with 3 topics that they can choose from to play the game. Once the topic is chosen choose_topic_menu is used in initalize_game where a random word is picked from the topic the user has chosen. Each function is important to the overall game because they all have a role to play in the hangman game.
 
 ### Major Challenges
 Key aspects could include pieces that your struggled on and/or pieces that you are proud of and want to show off.
