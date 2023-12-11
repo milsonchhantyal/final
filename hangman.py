@@ -1,3 +1,12 @@
+"""
+Final Project: Hangman
+===========================
+Course:   CS 5001
+Student:  Milson Chhantyal
+Semester: Fall 2023
+
+An application that runs the minigame hangman.
+"""
 import random
 import topics_file
 import hangman_drawings
@@ -130,4 +139,3 @@ def play_hangman():
     #import doctest
     #doctest.testmod(verbose=True)
 play_hangman()
-
