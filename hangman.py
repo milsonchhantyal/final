@@ -118,7 +118,7 @@ def play_hangman():
         else:
             print("Starting a new game...\n")
 
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod(verbose=True)
-    play_hangman()
+#if __name__ == "__main__":
+    #import doctest
+    #doctest.testmod(verbose=True)
+play_hangman()
