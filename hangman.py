@@ -2,10 +2,11 @@ import random
 import topics_file
 import hangman_drawings
 
+
 def choose_topic_menu():
     """
     Lets the user choose a topic for the Hangman game.
-    
+
     Returns:
         list: A list of words based on the chosen topic.
 
@@ -31,6 +32,7 @@ def choose_topic_menu():
         else:
             print("Invalid choice. Please try again.")
 
+
 def initialize_game():
     """
     Initializes a new hangman game.
@@ -44,6 +46,7 @@ def initialize_game():
     attempts = max_attempts
     return chosen_word, display, attempts
 
+
 def display_current_state(display, attempts):
     """
     Displays the current state of the game, including the word display, remaining attempts, and the hangman drawing.
@@ -55,6 +58,7 @@ def display_current_state(display, attempts):
     print("Current Word:", " ".join(display))
     print(f"Attempts left: {attempts}")
     print(hangman_drawings.drawings[attempts])
+
 
 def get_valid_guess(guessed_letters):
     """
@@ -71,7 +75,9 @@ def get_valid_guess(guessed_letters):
         if guessed_letter.isalpha() and len(guessed_letter) == 1 and guessed_letter not in guessed_letters:
             return guessed_letter
         else:
-            print("Invalid input. Please enter a valid single letter that you haven't guessed before.")
+            print(
+                "Invalid input. Please enter a valid single letter that you haven't guessed before.")
+
 
 def update_display(chosen_word, display, guessed_letter):
     """
@@ -89,6 +95,7 @@ def update_display(chosen_word, display, guessed_letter):
         if chosen_word[position] == guessed_letter:
             display[position] = guessed_letter
     return display
+
 
 def play_hangman():
     max_attempts = 6
@@ -118,7 +125,9 @@ def play_hangman():
         else:
             print("Starting a new game...\n")
 
+
 #if __name__ == "__main__":
     #import doctest
     #doctest.testmod(verbose=True)
 play_hangman()
+
