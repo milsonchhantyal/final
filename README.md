@@ -1,5 +1,3 @@
-# final
-5001 final
 # Final Project Report
 
 * Student Name: milson chhantyal
