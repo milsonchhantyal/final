@@ -1,8 +1,8 @@
 # Final Project Report
 
-* Student Name: milson chhantyal
+* Student Name: Milson Chhantyal
 * Github Username milsonchhantyal
-* Semester: fall 2023
+* Semester: Fall 2023
 * Course: CS5001
 
 
